@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playa del Carmen — Kaalam Montessori</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@300;400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Critical inline fallback: ensures only one language shows even if styles.css fails to load */
+body.en [data-lang]:not([data-lang="en"]) { display: none !important; }
+body.es [data-lang]:not([data-lang="es"]) { display: none !important; }
+body.fr [data-lang]:not([data-lang="fr"]) { display: none !important; }
+</style>
+
+</head>
+<body class="en">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Kaalam</a>
+    <nav class="nav-links">
+      <a href="por-que-kaalam.html"><span data-lang="en">Why Kaalam</span><span data-lang="es">Por qué Kaalam</span><span data-lang="fr">Pourquoi Kaalam</span></a>
+      <a href="montessori.html">Montessori</a>
+      <a href="campus.html"><span data-lang="en">Campus</span><span data-lang="es">Campus</span><span data-lang="fr">Campus</span></a>
+      <a href="equipo.html"><span data-lang="en">Team</span><span data-lang="es">Equipo</span><span data-lang="fr">Équipe</span></a>
+      <a href="un-dia.html"><span data-lang="en">A Day</span><span data-lang="es">Un Día</span><span data-lang="fr">Une Journée</span></a>
+      <a href="blog.html">Blog</a>
+      <a href="playa.html" class="active">Playa</a>
+      <a href="inscripciones.html"><span data-lang="en">Admissions</span><span data-lang="es">Inscripciones</span><span data-lang="fr">Admissions</span></a>
+      <a href="contacto.html" class="nav-cta"><span data-lang="en">Visit us</span><span data-lang="es">Visítanos</span><span data-lang="fr">Visitez-nous</span></a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-set-lang="en" class="lang-btn active">EN</button>
+      <button data-set-lang="es" class="lang-btn">ES</button>
+      <button data-set-lang="fr" class="lang-btn">FR</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="section-inner">
+    <p class="eyebrow"><span data-lang="en">Playa del Carmen</span><span data-lang="es">Playa del Carmen</span><span data-lang="fr">Playa del Carmen</span></p>
+    <h1><span data-lang="en">Come raise your kids the way YOU decide to.</span><span data-lang="es">Ven a criar a tus hijos como TÚ decidas.</span><span data-lang="fr">Venez élever vos enfants comme VOUS le décidez.</span></h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="two-col">
+      <div class="col-text">
+        <p>
+          <span data-lang="en">For many families looking at Kaalam, the move to Playa isn't just about sun and sea — it's about reclaiming a right that feels like it's quietly slipping away in a lot of places in the US and Canada: the right of a parent to raise their own child according to their own values, without a school or a system stepping in to override that.</span>
+          <span data-lang="es">Para muchas familias que consideran Kaalam, la mudanza a Playa no es solo por el sol y el mar — es recuperar un derecho que parece estarse perdiendo poco a poco en muchos lugares de EE.UU. y Canadá: el derecho de un padre a criar a su propio hijo según sus propios valores, sin que una escuela o un sistema intervenga para anularlo.</span>
+          <span data-lang="fr">Pour de nombreuses familles qui envisagent Kaalam, le déménagement à Playa ne concerne pas seulement le soleil et la mer — il s'agit de retrouver un droit qui semble s'effriter tranquillement dans beaucoup d'endroits aux États-Unis et au Canada : le droit d'un parent d'élever son propre enfant selon ses propres valeurs, sans qu'une école ou un système ne s'y interpose.</span>
+        </p>
+        <p>
+          <span data-lang="en">Playa del Carmen gives that back. A slower rhythm of life, real community, and a school like Kaalam that treats you as the authority on your own child — not an institution to be managed around. For a lot of parents, the decision isn't "should we move for the beach." It's "we found a place where we get to actually parent again."</span>
+          <span data-lang="es">Playa del Carmen te lo devuelve. Un ritmo de vida más tranquilo, comunidad real, y un colegio como Kaalam que te trata como la autoridad sobre tu propio hijo — no como una institución que hay que sortear. Para muchos papás, la decisión no es "¿nos mudamos por la playa?". Es "encontramos un lugar donde por fin podemos volver a ser padres de verdad".</span>
+          <span data-lang="fr">Playa del Carmen vous redonne cela. Un rythme de vie plus tranquille, une communauté réelle, et une école comme Kaalam qui vous traite comme l'autorité sur votre propre enfant — pas comme une institution à contourner. Pour beaucoup de parents, la décision n'est pas « devrions-nous déménager pour la plage ». C'est « nous avons trouvé un endroit où nous pouvons enfin redevenir de vrais parents ».</span>
+        </p>
+      </div>
+      <div class="col-quote">
+        <p class="signature-quote">
+          <span data-lang="en">Some families move to Playa. Then they find Kaalam and never look back.</span>
+          <span data-lang="es">Algunas familias se mudan a Playa. Luego encuentran Kaalam y nunca miran atrás.</span>
+          <span data-lang="fr">Certaines familles s'installent à Playa. Puis elles découvrent Kaalam et ne regardent plus jamais en arrière.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Kaalam Montessori · Playa del Carmen, México · <a href="https://instagram.com/montessorikaalam" target="_blank" rel="noopener">Instagram</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
